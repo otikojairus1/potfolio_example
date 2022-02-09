@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.divider{
+    display: flex;
+}
+
+.dp{
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    
+}
+.shocase{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+.sub-shocases{
+    margin-top: 1.4rem;
+}
+
+.sub-shocases-icon{
+    display: flex;
+    
+}
+
+.icons{
+    margin-right: 3rem;
+    font-size: 1.8rem;
+}
+
+.contact{
+    font-weight: bold;
+    
+}
+
+.contact-me{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.name-email-wrapper{
+    display: flex;
+    width: fit-content;
+}
+
+.fullname, .email, .message{
+    margin-right: 2rem;
+    width: 100%;
+   
+}
+
+.form-control{
+    padding: 0.4rem;
+}
+.holder{
+    width: 400px;
+}
+.button{
+    background-color: black;
+    color: #fff;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 5rem;
+    align-items: center;
+    border-radius: 2rem;
+     ;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .divider{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

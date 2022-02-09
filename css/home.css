@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.navbar{
+    height: 50px;
+    width: 100%;
+   padding-top: 1rem;
+    text-align: center;
+    background-color: #fff;
+    
+}
+
+.navs{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+}
+
+.navlinks{
+    margin-left: 2rem;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+  }
+
+  .showcase{
+      display: flex;
+      height: 270px;
+      width: "100%";
+      padding-left: 12rem;
+      padding-right: 12rem;
+      
+      background-color: #fff;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .showcase-text-bold{
+      font-size: 2.7rem;
+      font-weight: bold;
+  }
+
+  .divider-logo{
+      padding-left: 2rem;
+      margin-left: 2rem;
+  }
+
+  .showcase-button{
+      background-color: rgb(241, 56, 56);
+      width: fit-content;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin-top: 1.3rem;
+      color: #fff;
+      
+  }
+
+  .showcase-button:hover{
+    background-color: rgb(5, 4, 4);
+    width: fit-content;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+  
+
+  .recent-showcase{
+      height: 350px;
+      background-color: rgb(228, 229, 241);
+      width: '100%';
+      padding-left: 12rem;
+      padding-right: 12rem;
+  }
+
+  .title-recent{
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 1.5rem;
+      padding-top: 1.4rem;
+  }
+
+  .main-grid{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 35px;
+      
+  }
+
+  .grid{
+      background-color: #fff;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      padding-top: 2rem;
+      
+      
+  }
+
+  .grid-content-2{
+      display: flex;
+      margin-bottom: 1rem;
+     
+  }
+
+  .date{
+      margin-right: 2rem;
+  }
+
+  .desc{
+      margin-left: 2rem;
+  }
+
+  .grid-content{
+      margin-bottom: 1rem;
+  }
+.title{
+    font-weight: bold;
+    font-size: 2rem;
+}
+  /* start of featured works styling */
+
+  .featured-works{
+      height: 560px;
+      padding-left: 12rem;
+      padding-right: 12rem;
+      
+  }
+
+  .thumbnail{
+      
+      width: 150px;
+      height: 150px;
+      vertical-align: middle;
+  }
+
+  .feature{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
+    
+  }
+
+  .wordings{
+      margin-left: 1rem;
+      
+  }
+  .text1{
+      padding-bottom: 0.5rem;
+      color: rgb(18, 6, 88);
+      font-size: 1.5rem;
+      font-weight: bold;
+      
+  }
+  .wording-contents{
+      display: flex;
+      margin-top: 0.5rem;
+
+  }
+  .dashboard{
+      margin-left: 1rem;
+      color: rgb(197, 193, 193);
+  }
+  .badge{
+      color: #fff;
+      background-color: rgb(18, 6, 88);
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
+      padding-top: 0.1rem;
+      padding-bottom: 0.1rem;
+      border-radius: 0.7rem;
+  }
+  /* footer */
+
+  .footer{
+      height: 130px;
+      width: "100%";
+      position: relative;
+     
+  }
+
+  .wrapper{
+     width: fit-content;
+     height: fit-content;
+     position: absolute;
+      /* background-color: black; */
+      left: 35rem;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .icongroup{
+      margin-top: 2rem;
+      display: flex;
+      padding: 0.4rem;
+      
+  }
+  .icons{
+      margin-left: 1rem;
+      font-size: 1.5rem;
+  }
+
+  .logo{
+      font-size: 2.4rem;
+      background-color: rgb(213, 219, 219);
+      padding: 0.4rem;
+      border-radius: 50%;
+  }
+
+  a:hover {
+    background-color: rgb(2, 2, 2);
+    color: #fff;
+  }
+
+
+
+ /* utility */
+
+  /* Dropdown Button */
+  .dropbtn {
+    background-color: #fff;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .size{
+      font-size: 2rem;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(8, 8, 8);
+    color: #fff;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  .handler{
+      display: none;
+  }
+
+  /* media queries for smaller screens */
+
+  @media only screen and (max-width: 600px) {
+
+
+
+    .showcase{
+        display: block;
+    }
+
+    .navs{
+        display: none;
+    }
+
+
+
+/*     
+.container{
+    
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+} */
+.showcase-text-bold{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.showcase{
+  display: flex;
+    height: fit-content;
+    width: "100%";
+    background-color: #fff;
+    flex-direction: column-reverse;
+    padding-left: 2rem;
+    padding-right: 2rem;
+   
+   
+}
+
+.showcase-button{
+    margin-left: 9rem;
+    margin-bottom: 2rem;
+}
+
+.dividers{
+    width: '100%';
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.divider-logo{
+    padding-left: 2rem;
+    margin-left: 2rem;
+}
+
+/* recent posts */
+
+.recent-showcase{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.main-grid{
+    display: inline-block;
+    
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 35px; */
+    
+}
+
+.grid{
+    background-color: #fff;
+    /* padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 0rem; */
+    padding: 0.5rem;
+    
+    
+}
+
+.grid-content-2{
+    display: block;
+    margin-bottom: 1rem;
+   
+}
+.recent-showcase{
+    height: fit-content;
+    background-color: rgb(228, 229, 241);
+    width: '100%';
+    padding-left: 0.5rem;
+       padding-right: 0.5rem; 
+}
+.title-recent{
+    display: block;
+   justify-content: center;
+    padding-bottom: 1.5rem;
+    padding-top: 1.4rem;
+    text-align: center;
+}
+
+.grid-content-2{
+    display: flex;
+    margin-bottom: 0rem;
+   
+}
+
+.grid-content{
+    margin-top: 1rem;
+}
+
+/* start of feature section */
+.feature{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
+    
+  }
+
+  .featured-works{
+    height: fit-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+.thumbnail{
+      
+    width: 250px;
+    height: 250px;
+    vertical-align: middle;
+    align-self: center;
+    margin-left: 7rem;
+}
+
+/* footer section */
+
+.footer{
+    height: fit-content;
+    width: "100%";
+    position: relative;
+    padding-bottom: 2rem;
+   
+}
+
+.wrapper{
+   width: fit-content;
+   height: fit-content;
+   position: absolute;
+    /* background-color: black; */
+    left: 9rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.icongroup{
+    margin-top: 2rem;
+    display: flex;
+    padding: 0.4rem;
+    
+}
+.icons{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.logo{
+    font-size: 2.4rem;
+    background-color: rgb(213, 219, 219);
+    padding: 0.4rem;
+    border-radius: 50%;
+}
+.tags{
+    margin-bottom: 3rem;
+}
+
+.handler{
+    display: block;
+}
+  }
+
+ 
